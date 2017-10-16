@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  background: #333; }
+
+h1, h2, h3 {
+  font-weight: bold; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  line-height: 1.4; }
+
+.container-image {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center; }
+
+nav {
+  background: #111; }
+  nav .navbar {
+    padding: 20px 10px !important; }
+
+.main {
+  padding: 0; }
+
+.albums {
+  padding: 10px 20px; }
+  .albums .albums__miniature {
+    background: #555;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+    border: 10px solid #333;
+    border-top: 5px solid #333;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    .albums .albums__miniature img {
+      width: 100%; }
+    .albums .albums__miniature h2,
+    .albums .albums__miniature p {
+      text-align: left;
+      color: #fff; }
+    .albums .albums__miniature h2 {
+      font-size: 1.4em;
+      padding: 10px 20px; }
+    .albums .albums__miniature p {
+      padding: 20px 20px; }
+    .albums .albums__miniature date {
+      padding: 10px 20px;
+      color: #fff;
+      display: block;
+      font-size: 0.7em;
+      opacity: 0.5;
+      letter-spacing: 4px; }
+    .albums .albums__miniature .selected {
+      color: red; }
+
+.sidebar {
+  background: #222;
+  margin: 0 0;
+  padding: 30px; }
+  .sidebar .sidebar__filters h1 {
+    color: #fff;
+    display: block;
+    font-size: 2em; }
+  .sidebar .sidebar__filters .sidebar__filters--date-add {
+    margin: 30px 0; }
+    .sidebar .sidebar__filters .sidebar__filters--date-add h2 {
+      color: #fff; }
+    .sidebar .sidebar__filters .sidebar__filters--date-add .radio {
+      color: #fff;
+      font-size: 0.8em;
+      margin: 15px 0;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+  .sidebar .sidebar__songs h1 {
+    color: #fff;
+    display: block;
+    font-size: 2em; }
+  .sidebar .sidebar__songs ul {
+    margin: 30px auto; }
+    .sidebar .sidebar__songs ul li {
+      padding: 20px 0px;
+      border-top: 1px solid #fff;
+      color: #fff;
+      overflow: hidden; }
+      .sidebar .sidebar__songs ul li h3 {
+        float: left; }
+      .sidebar .sidebar__songs ul li span {
+        float: right;
+        cursor: pointer; }
+
+#sidebar-right {
+  position: absolute !important;
+  right: 0; }
